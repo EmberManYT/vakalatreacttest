@@ -1,43 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+  <title>VakalatAI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="VakalatAI" />
+  <meta name="description" content="VakalatAI" />
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="./assets/css/bootstrap.min.js" rel="stylesheet" type="text/css">
+  <link href="./assets/css/all.min.css" rel="stylesheet" type="text/css">
+  <!-- <link href="/ui-assets/css/css/responsive.css" rel="stylesheet" type="text/css"> -->
+  <link href="./assets/css/style.css" rel="stylesheet" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  <script type="text/javascript" src="./assets/css/bundle.min.js"></script>
+  <script type="text/javascript" src="./assets/css/popper.min.js"></script>
+  
+</head>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+<body class="parallax-background">
+  <header class="parallax-foreground">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-black">
+        <a class="navbar-brand" href="#"><img src="./assets/images/logo.svg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  ml-auto mr-auto">
+            <li class="nav-item">
+              <ac class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About AI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="error.html">Credentials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="error.html">Our Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+          </ul>
+          
+          <div class="choose-language-drop">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle language-drop" type="button" data-toggle="dropdown"
+                aria-expanded="false">
+                <img src="./assets/images/flag.png">English
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">English</a>
+                <a class="dropdown-item" href="#">Hindi</a>
+                <a class="dropdown-item" href="#">Punjabi</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <!-------Banner Content------>
+    <div class="banner-content">
+      <img src="./assets/images/banner-img.png">
+      <p>VakalatAI is an Al-based legal advisory and informational chatbot that aims to make legal help in India
+        accessible to all, regardless of socioeconomic background.
+        <br><br> We aim to introduce VakalatAI to every individual across India who has access to the Internet, legally
+        empowering them with a mere click of the button below.
+      </p>
+    </div>
+    <div class="banner-button">
+      <a href="chatbot.html">USE VAKALATAI NOW</a>
+  </div>
+  </div>
+  <!-------How to Content------>
+  <a href="videowip.html">
+    <div class="how-to-section">
+      <div class="container">
+        <div class="play-btn-image">
+          <img src="./assets/images/play-button.png">
+          <p><span>How</span>to use<br>VakalatAI?</p>
+        </div>
+      </div>
+    </div>
+  </a>
+
+ <!-------Our Mission Content------>
+
+ <div class="container">
+  <div class="mission-content">
+    <h3><span>Our</span><br>Mission</h3>
+    <p>80% of people with legal problems don’t get help. Browsing across countless websites across the web, there <br>are millions of unanswered questions from individuals stuck in legal disputes, needing professional advice and <br>a path towards justice.</p>
+  </div>
+<div class="read-more-btn">
+  <a href="ourmission.html">Read more</a>
+</div>  
+ </div>
+
+ <!-------Our Mission Content------>
+ <div class="mission-section">
+ <div class="container">
+  <div class="row">
+    <div class="col-md-6 col-sm-12">
+      <div class="award-image">
+    <img src="./assets/images/award.png">
+    </div>
+    </div>
+    <div class="col-md-6 col-sm-12">
+    <div class="award-section-content">
+    <h3>Our</h3>
+    <h4>Awards & Recognition</h4>
+    <p>VakalatAI has been recognised and commended by various experts from law firms, IT departments, Indian Government Officials. It has also been pitched at multiple competitions and funding rounds in an effort to spread impact.</p>
+    <div class="Credentials-btn">
+      <a href="credentials.html">View all credentials</a>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+<!-------Consultant Content------>
+<div class="consult-content">
+    <div class="offer-heading">
+      <h3>Are You a Lawyer Offering Low Price/Pro Bono Consultations? You can help.</h3>
+      <p>Join our community of Indian lawyers who are joining our mission to bridge legal gaps. To offer your low price/pro bono consultations to those who need it most, sign up on the Google Form below. After verifying your information, your profile will be visible to our Indian consumers, who can then contact you directly for further discussions.</p>
+      <a href="#">Sign up here</a>
+    </div>
+</div>
+
+
+<!-------Footer-section------>
+
+<footer>
+  <div class="end-section">
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 col-sm-12">
+      <div class="logo-section">
+        <img src="./assets/images/logo.svg">
+        <p>An Al-based legal advisory and informational chatbot that aims to make legal help in India accessible to all, regardless of socioeconomic background.</p>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-12">
+    <div class="contact-menu">
+      <ul>
+        <li> <a href="#"> Contact Us</a> </li>
+        <li> <a href="#"> About AI </a> </li> 
+        <li> <a href="#"> Terms & Conditions </a> </li>     
+      </ul>
+    </div>
+    </div>
+    <div class="col-md-3 col-sm-12">
+      <div class="contact-menu">
+        <ul>
+          <li> <a href="#"> News</a></li>
+          <li> <a href="#">Cookies</a>  </li> 
+          <li> <a href="#"> Privacy Policy </a></li>     
+        </ul>
+      </div>
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <div class="social-icons">
+          <ul>
+            <li><a href="#"><img src="./assets/images/link.png"></a></li>
+            <li><a href="#"><img src="./assets/images/insta.png"></a></li>
+            <li><a href="#"><img src="./assets/images/thread.png"></a></li>
+          </ul>
+        </div>
+        </div>
+  </div>
+</div>
+</div>
+</footer>
+
+  <script src="./assets/css/js/jquery.slim.min.js"></script>
+  <script src="assets/css/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/css/js/owl.carousel.js"></script>
+  <script src="assets/css/js/owl.carousel.min.js"></script>
+
+</body>
+
 </html>
